@@ -59,7 +59,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-    color: inherit;
+    color: white;
 }
 
 h1 {
@@ -190,7 +190,7 @@ section {
     Text color
 ------------------------*/
 .text-theme {
-    color: #bbc031 ;
+    color: #aa3133 ;
 }
 
 .text-black {
@@ -710,4 +710,7 @@ iframe {
 .img-side .owl-item,
 .img-side .owl-item .item {
     height: 100%
+}
+.text-sub-up{
+    color: #ffffff;
 }

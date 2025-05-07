@@ -105,6 +105,7 @@
 
 .owl-carousel.owl-refresh .owl-item {
   visibility: hidden;
+  
 }
 
 .owl-carousel.owl-drag .owl-item {
@@ -280,7 +281,7 @@
 }
 
 .owl-carousel .owl-dots .owl-dot span::before {
-  border: 2px solid #f9a305;
+  border: 2px solid #0d5431;
   opacity: 0;
   content: "";
   height: 20px;
@@ -303,7 +304,7 @@
 
 .owl-carousel .owl-dots .owl-dot:hover span,
 .owl-carousel .owl-dots .owl-dot.active span {
-  background: #f9a305;
+  background: #aa3133;
 }
 
 .owl-carousel .owl-dots .owl-dot.active span:before,

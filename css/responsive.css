@@ -153,7 +153,7 @@
   .navbar-nav .nav-link.active,
   #header-wrap.fixed-header .navbar-nav .nav-link:hover,
   #header-wrap.fixed-header .navbar-nav .nav-link.active {
-    background: #f9a305;
+    background: #0d5431;
     color: #ffffff !important;
   }
 
@@ -165,7 +165,7 @@
     left: 0;
     padding: 0;
     position: absolute;
-    top: 50px;
+    top: 100px;
     width: 100%;
     -webkit-box-shadow: 5px 8px 30px 0 rgba(31, 35, 37, 0.08);
     -moz-box-shadow: 5px 8px 30px 0 rgba(31, 35, 37, 0.08);

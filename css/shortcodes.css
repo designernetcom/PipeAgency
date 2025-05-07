@@ -58,7 +58,7 @@
 }
 
 .dark-bg .accordion .accordion-body {
-    color: rgba(255, 255, 255, 0.5);
+    color:white !important;
 }
 
 .dark-bg .accordion .accordion-button:not(.collapsed) {
@@ -613,11 +613,13 @@
 }
 
 .tab.style-2 .nav-tabs .nav-link {
-    background: #ffffff;
+    background: #ff9b9b;
     color: #000000;
     border-radius: 0;
     border-right: 1px solid #efefef;
     font-size: 20px !important;
+    margin-bottom: 8px;
+    border-radius:10px  ;
 }
 
 .tab.style-2 .nav-tabs .nav-link:last-child {
@@ -1243,9 +1245,10 @@ blockquote {
 }
 
 .testimonial h6 {
-    color: #f9a305;
+    color: #000000;
     text-transform: uppercase;
     display: inline-block;
+    font-weight: 500;
 }
 
 .theme-bg .testimonial .testimonial-content span {
@@ -1809,7 +1812,7 @@ blockquote {
     padding-bottom: 15px;
     margin-bottom: 20px;
     position: relative;
-    color: #0d5431;
+    color: #000000;
 }
 
 .dark-bg h2 {
@@ -1818,7 +1821,7 @@ blockquote {
 
 .title span {
     position: relative;
-    color: #aa3133 
+    color: #000000 
 }
 
 .section-title h6 {
@@ -1839,7 +1842,7 @@ blockquote {
 }
 
 .title:after {
-    background: #f9a305;
+    background: #aa3133;
     left: 30px;
 }
 
