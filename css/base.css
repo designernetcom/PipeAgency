@@ -504,6 +504,7 @@ span,
   .navbar-nav .dropdown-menu .dropdown-submenu .dropdown-menu {
     min-width: inherit;
     max-width: inherit;
+    left: 100px;
   }
 
   .navbar-nav .dropdown>.dropdown-menu {
@@ -512,6 +513,8 @@ span,
     display: block;
     pointer-events: none;
     background: #ffffff;
+    top: 100% !important;
+    
   }
 
   .navbar-nav .dropdown:hover>.dropdown-menu {
@@ -520,6 +523,7 @@ span,
     pointer-events: auto;
     visibility: visible;
     top: 100%;
+    left: 100px;
     -webkit-transition: all 0.5s ease-in-out 0s;
     -moz-transition: all 0.5s ease-in-out 0s;
     -ms-transition: all 0.5s ease-in-out 0s;
@@ -1239,4 +1243,22 @@ footer .widget .recent-post-desc span {
 .page-title{
   margin-top:100px ;
   background-size: cover;
+}
+
+
+@media (min-width:992px) {
+  .navbar-nav .nav-item .nav-link{
+    margin-left: 20px;
+  }
+}
+.table-bordered i{
+  background-color: #024f2a;
+  color: white;
+  padding: 4px;
+  border-radius: 5px;
+  margin-right: 20px;
+  font-weight: 800;
+}
+.main-table td{
+  font-size: 19px;
 }

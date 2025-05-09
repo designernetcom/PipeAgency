@@ -606,11 +606,7 @@
     background: #ffffff;
 }
 
-.tab.style-2 .nav-tabs {
-    margin-bottom: 15px;
-    border-radius: 0;
-    background: #ffffff
-}
+
 
 .tab.style-2 .nav-tabs .nav-link {
     border: 1px solid gray;
@@ -1363,7 +1359,7 @@ blockquote {
 
 .featured-desc p {
     margin-bottom: 0;
-    padding: 30px;
+    padding:15px 10px;
     background-color: #f3f4f6;
     color: black !important;
 }
