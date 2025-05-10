@@ -723,3 +723,7 @@ iframe {
 .text-sub-up{
     color: #ffffff;
 }
+.social-icons-imgs{
+    display: flex;
+    gap: 15px;
+}
