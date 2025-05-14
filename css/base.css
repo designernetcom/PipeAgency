@@ -245,6 +245,23 @@ span,
   left: 0;
   z-index: -1;
 }
+ .banner-1 h1{
+  color: #c9c9c9;
+   text-shadow:
+      -1px -1px 0,
+     1px -1px 0 rgb(255, 255, 255),
+    -1px  1px 0 rgb(255, 255, 255),
+     1px  1px 0 rgb(255, 255, 255);
+ }
+ .banner-1 h5{
+  color: #aa3133;
+  text-shadow:
+    -1px -1px 0,
+     1px -1px 0 rgb(255, 255, 255),
+    -1px  1px 0 rgb(255, 255, 255),
+     1px  1px 0 rgb(255, 255, 255);
+ }text-shadow:
+ 
 
 [data-overlay].white-overlay:before {
   background-color: #000000;
@@ -1160,7 +1177,7 @@ footer .widget .recent-post-desc span {
 
 .featured-desc p {
   font-size: 19px;
-  text-align: center;
+  text-align: justify;
   line-height: 30px;
 }
 
@@ -1179,7 +1196,6 @@ footer .widget .recent-post-desc span {
 }
 
 .featured-item {
-  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   gap: 20px;
 }
 
