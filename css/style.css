@@ -724,8 +724,7 @@ iframe {
     color: #ffffff;
 }
 .social-icons-imgs{
-    display: flex;
-    gap: 15px;
+  
 }
 .table-striped>tbody>tr:nth-of-type(odd)>*{
     background-color: #67ff010d;
